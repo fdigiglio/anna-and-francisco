@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f0e5" />
+    <meta name="description" content="Save the date for Anna and Francisco: November 20, 2027, Houston, Texas." />
+    <title>Save the Date | Anna &amp; Francisco</title>
+    <script>document.documentElement.classList.replace('no-js', 'js');</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Great+Vibes&amp;family=Instrument+Serif:ital@0;1&amp;family=Luxurious+Script&amp;family=Jost:wght@400;500&amp;family=Playfair+Display:ital,wght@1,600&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="lang-switch" role="group" aria-label="Language" data-i18n-aria="language">
+      <button type="button" data-lang="en" aria-pressed="true" lang="en">EN</button>
+      <button type="button" data-lang="es" aria-pressed="false" lang="es">ES</button>
+      <button type="button" data-lang="pl" aria-pressed="false" lang="pl">PL</button>
+    </div>
+
+    <svg class="symbols" aria-hidden="true" focusable="false">
+      <symbol id="mini-heart" viewBox="0 0 24 22">
+        <path d="M12 21C5 15.2 1 11.2 1 6.6 1 3.5 3.4 1 6.4 1c2.2 0 4 1.2 5.6 3.4C13.6 2.2 15.4 1 17.6 1 20.6 1 23 3.5 23 6.6 23 11.2 19 15.2 12 21Z" />
+      </symbol>
+    </svg>
+
+    <main id="top">
+    <section class="scene" id="scene">
+      <div class="envelope-wrap">
+        <span class="flourish" aria-hidden="true"></span>
+
+        <div class="envelope">
+          <span class="env-back" aria-hidden="true"></span>
+
+          <div class="card-clip">
+          <article class="card" id="card" aria-labelledby="card-names">
+            <div class="card-body">
+              <h1 class="card-names" id="card-names" tabindex="-1">Anna &amp; Francisco</h1>
+              <p class="card-std" data-i18n="saveTheDate">Save the date</p>
+              <p class="card-giglio">#GettingDiGiglioWithIt</p>
+              <div class="card-foot">
+                <p class="card-place" data-i18n="city">Houston, Texas</p>
+                <p class="card-note" data-i18n="formalNote">Invitation to follow</p>
+              </div>
+            </div>
+          </article>
+          </div>
+
+          <span class="env-pocket" aria-hidden="true">
+            <span class="env-pocket-face">
+              <svg class="folds" viewBox="0 0 100 100" preserveAspectRatio="none" focusable="false">
+                <polygon points="0,0 50,56 50,63 0,100" fill="#3c4630" fill-opacity="0.06" />
+                <polygon points="100,0 50,56 50,63 100,100" fill="#3c4630" fill-opacity="0.025" />
+                <polygon points="0,100 50,63 100,100" fill="#ffffff" fill-opacity="0.07" />
+                <polyline points="0,100 50,63 100,100" fill="none" stroke="#2f3826" stroke-opacity="0.08" stroke-width="4" vector-effect="non-scaling-stroke" transform="translate(0 0.9)" />
+                <polyline points="0,100 50,63 100,100" fill="none" stroke="#5d6a4f" stroke-opacity="0.35" stroke-width="1" vector-effect="non-scaling-stroke" />
+                <polyline points="0,0 50,56 100,0" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="1" vector-effect="non-scaling-stroke" />
+              </svg>
+            </span>
+          </span>
+
+          <span class="env-flap" aria-hidden="true">
+            <span class="env-flap-face">
+              <span class="flap-inside"></span>
+              <span class="flap-outside"></span>
+            </span>
+            <svg class="seal" viewBox="-64 -64 128 128" aria-hidden="true" focusable="false">
+              <defs>
+                <filter id="seal-wax" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB">
+                  <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 1 0 0 0" result="pressA" />
+                  <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 1 0 0" result="reliefA" />
+
+                  <feGaussianBlur in="SourceAlpha" stdDeviation="6.5" result="bodyBlur" />
+                  <feComponentTransfer in="bodyBlur" result="dome">
+                    <feFuncA type="table" tableValues="0 0.42 0.74 0.92 1 1" />
+                  </feComponentTransfer>
+                  <feGaussianBlur in="pressA" stdDeviation="2.4" result="pressBlur" />
+                  <feComposite in="dome" in2="pressBlur" operator="arithmetic" k1="0" k2="1" k3="-0.3" k4="0" result="bodyH" />
+                  <feGaussianBlur in="reliefA" stdDeviation="0.5" result="reliefH" />
+
+                  <feDiffuseLighting in="bodyH" surfaceScale="5" diffuseConstant="1.16" lighting-color="#ffffff" result="bodyDiffRaw">
+                    <feDistantLight azimuth="225" elevation="50" />
+                  </feDiffuseLighting>
+                  <feGaussianBlur in="bodyDiffRaw" stdDeviation="1.1" result="bodyDiff" />
+                  <feSpecularLighting in="bodyH" surfaceScale="5" specularConstant="0.6" specularExponent="22" lighting-color="#fff8e8" result="bodySheenRaw">
+                    <feDistantLight azimuth="225" elevation="44" />
+                  </feSpecularLighting>
+                  <feGaussianBlur in="bodySheenRaw" stdDeviation="1.4" result="bodySheen" />
+
+                  <feDiffuseLighting in="reliefH" surfaceScale="2.2" diffuseConstant="1.27" lighting-color="#ffffff" result="reliefDiff">
+                    <feDistantLight azimuth="225" elevation="52" />
+                  </feDiffuseLighting>
+                  <feSpecularLighting in="reliefH" surfaceScale="2.2" specularConstant="0.5" specularExponent="40" lighting-color="#fff8e8" result="reliefSheen">
+                    <feDistantLight azimuth="225" elevation="46" />
+                  </feSpecularLighting>
+
+                  <feComposite in="bodyDiff" in2="reliefDiff" operator="arithmetic" k1="1" k2="0" k3="0" k4="0" result="diffuse" />
+                  <feFlood flood-color="#c6ae78" result="base" />
+                  <feComposite in="base" in2="diffuse" operator="arithmetic" k1="0.78" k2="0.26" k3="0" k4="0" result="shaded" />
+                  <feComposite in="shaded" in2="bodySheen" operator="arithmetic" k1="0" k2="1" k3="0.42" k4="0" result="sheened" />
+                  <feComposite in="sheened" in2="reliefSheen" operator="arithmetic" k1="0" k2="1" k3="0.35" k4="0" result="lit" />
+                  <feComposite in="lit" in2="SourceAlpha" operator="in" result="wax" />
+
+                  <feGaussianBlur in="SourceAlpha" stdDeviation="2.4" result="shadowBlur" />
+                  <feOffset in="shadowBlur" dx="1.2" dy="2.6" result="shadowShift" />
+                  <feFlood flood-color="#1f2416" flood-opacity="0.42" />
+                  <feComposite in2="shadowShift" operator="in" result="shadow" />
+                  <feGaussianBlur in="SourceAlpha" stdDeviation="0.6" result="contactBlur" />
+                  <feOffset in="contactBlur" dx="0.3" dy="0.7" result="contactShift" />
+                  <feFlood flood-color="#1f2416" flood-opacity="0.45" />
+                  <feComposite in2="contactShift" operator="in" result="contact" />
+                  <feMerge>
+                    <feMergeNode in="shadow" />
+                    <feMergeNode in="contact" />
+                    <feMergeNode in="wax" />
+                  </feMerge>
+                </filter>
+              </defs>
+              <g filter="url(#seal-wax)">
+                <path fill="#ff0000" d="M0.0 -50.0C11.8 -50.0 23.7 -47.0 32.9 -39.2C43.3 -30.5 47.7 -17.2 48.8 -4.3C49.9 8.7 47.4 22.2 38.8 32.5C31.1 41.6 19.8 46.1 8.5 48.1C-4.3 50.3 -18.1 49.3 -29.1 41.6C-40.2 33.9 -46.4 21.5 -48.6 8.6C-50.9 -4.3 -49.5 -18.2 -41.8 -29.3C-32.2 -42.9 -16.3 -50.0 0.0 -50.0Z" />
+                <circle r="35" fill="#ffff00" />
+                <g fill="#ffffff" stroke="#ffffff">
+                  <circle r="31.4" fill="none" stroke-width="1.2" />
+                  <circle r="29.4" fill="none" stroke-width="0.5" />
+                  <g stroke="none" font-family="'Cormorant Garamond', Garamond, 'Times New Roman', serif" font-weight="600" font-size="25" text-anchor="middle">
+                    <text x="-11" y="-3">A</text>
+                    <text x="13" y="18">F</text>
+                  </g>
+                  <g transform="translate(1 -1)">
+                    <path fill="none" stroke-width="1.1" stroke-linecap="round" d="M-16 16Q-1 2 16-16" />
+                    <g stroke="none">
+                      <ellipse cx="-11.8" cy="9.4" rx="2.8" ry="1.1" transform="rotate(-85 -11.8 9.4)" />
+                      <ellipse cx="-9.4" cy="11.8" rx="2.8" ry="1.1" transform="rotate(-5 -9.4 11.8)" />
+                      <ellipse cx="-5.8" cy="3.4" rx="2.6" ry="1" transform="rotate(-85 -5.8 3.4)" />
+                      <ellipse cx="-3.4" cy="5.8" rx="2.6" ry="1" transform="rotate(-5 -3.4 5.8)" />
+                      <ellipse cx="6.2" cy="-8.6" rx="2.6" ry="1" transform="rotate(-85 6.2 -8.6)" />
+                      <ellipse cx="8.6" cy="-6.2" rx="2.6" ry="1" transform="rotate(-5 8.6 -6.2)" />
+                      <ellipse cx="12.2" cy="-14.6" rx="2.2" ry="0.9" transform="rotate(-85 12.2 -14.6)" />
+                      <ellipse cx="14.6" cy="-12.2" rx="2.2" ry="0.9" transform="rotate(-5 14.6 -12.2)" />
+                      <ellipse cx="17" cy="-17" rx="2" ry="0.9" transform="rotate(-45 17 -17)" />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+
+          <button class="open-hit" id="open-envelope" type="button" aria-controls="card" aria-expanded="false" aria-label="Open the envelope" data-i18n-aria="openLabel"></button>
+        </div>
+
+        <img class="frame-lilies" src="assets/decor/calla-lilies-tall.png" alt="" aria-hidden="true" />
+
+        <figure class="photo-frame" id="photo-frame">
+          <div class="frame-photo">
+            <img src="assets/photos/photo-1.jpg" alt="Photo of the couple" data-i18n-alt="coupleAlt" />
+            <span class="photo-soon" data-i18n="photoSoon">Photo coming soon</span>
+          </div>
+        </figure>
+
+        <div class="doily" id="doily">
+          <img src="assets/doily.svg" alt="" />
+          <svg class="embroidery" viewBox="0 0 164 40" role="img" aria-label="Saturday, November 20, 2027" data-i18n-aria="dateAria">
+            <defs>
+              <pattern id="satin" width="2.2" height="2.2" patternUnits="userSpaceOnUse" patternTransform="rotate(62)">
+                <rect width="2.2" height="2.2" fill="#6c805e" />
+                <rect width="1" height="2.2" fill="#93a682" />
+                <rect x="1" width="0.3" height="2.2" fill="#53664a" />
+              </pattern>
+              <filter id="thread" x="-10%" y="-15%" width="120%" height="135%" color-interpolation-filters="sRGB">
+                <feGaussianBlur in="SourceAlpha" stdDeviation="0.6" result="height" />
+                <feSpecularLighting in="height" surfaceScale="2" specularConstant="0.5" specularExponent="14" lighting-color="#f6f8ee" result="spec">
+                  <feDistantLight azimuth="225" elevation="40" />
+                </feSpecularLighting>
+                <feComposite in="spec" in2="SourceAlpha" operator="in" result="specIn" />
+                <feComposite in="SourceGraphic" in2="specIn" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" result="lit" />
+                <feDropShadow in="lit" dx="0.45" dy="0.75" stdDeviation="0.45" flood-color="#4a3c22" flood-opacity="0.5" />
+              </filter>
+            </defs>
+            <g filter="url(#thread)">
+              <g fill="url(#satin)" stroke="#53664a" stroke-width="0.45" paint-order="stroke" font-family="'Playfair Display', Georgia, serif" font-style="italic" font-weight="600" text-anchor="middle">
+                <text x="82" y="29" font-size="30" data-i18n="dateEmbroidered">11.20.2027</text>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <p class="open-hint" data-i18n="tapHint">Click the envelope to open</p>
+
+      <a class="scroll-cue" href="#faq">
+        <span data-i18n="scrollCue">Details, FAQ and RSVP below</span>
+        <span class="chevron" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <div class="more" id="more">
+      <section class="section faq" id="faq" aria-labelledby="faq-title">
+        <img class="decor decor-bouquet" src="assets/decor/calla-bouquet.png" alt="" aria-hidden="true" />
+        <img class="decor decor-champagne" src="assets/decor/champagne-tower.png" alt="" aria-hidden="true" />
+        <p class="kicker" data-i18n="faqKicker">Good to know</p>
+        <h2 class="section-title" id="faq-title" data-i18n="faqTitle">Questions &amp; Answers</h2>
+        <svg class="heart-mark" aria-hidden="true"><use href="#mini-heart" /></svg>
+        <p class="section-intro" data-i18n="faqIntro">A few early details. We will update this page as plans come together.</p>
+
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>
+              <svg class="faq-heart" aria-hidden="true"><use href="#mini-heart" /></svg>
+              <span class="faq-q" data-i18n="qWhenQ">When and where is the wedding?</span>
+            </summary>
+            <div class="faq-answer">
+              <p class="faq-lead" data-i18n="qWhenDate">Saturday, November 20, 2027</p>
+              <p data-i18n="qWhenA">Our day begins with a Catholic Mass at 3:00 p.m. Following the ceremony, please join us for cocktail hour and the reception at The House Estate in Hockley, Texas.</p>
+              <ul class="place-list">
+                <li>
+                  <span class="place-label" data-i18n="placeCeremony">Ceremony, 3:00 p.m.</span>
+                  <span class="place-name">Our Lady of Częstochowa Catholic Church</span>
+                  <a class="place-addr" href="https://www.google.com/maps/search/?api=1&amp;query=Our+Lady+of+Czestochowa+Catholic+Church+1731+Blalock+Rd+Houston+TX+77080" target="_blank" rel="noopener">1731 Blalock Rd, Houston, TX 77080</a>
+                </li>
+                <li>
+                  <span class="place-label" data-i18n="placeReception">Cocktail hour and reception, after the Mass</span>
+                  <span class="place-name">The House Estate</span>
+                  <a class="place-addr" href="https://www.google.com/maps/search/?api=1&amp;query=The+House+Estate+15743+House+Rd+Hockley+TX+77447" target="_blank" rel="noopener">15743 House Rd, Hockley, TX 77447</a>
+                </li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <svg class="faq-heart" aria-hidden="true"><use href="#mini-heart" /></svg>
+              <span class="faq-q" data-i18n="qHotelQ">Where should we stay?</span>
+            </summary>
+            <div class="faq-answer">
+              <p data-i18n="qHotelA">For easy access to our wedding transportation, we recommend staying at one of the hotels below, or at another hotel within about one mile of them. They are all close together in northwest Houston, in the Cypress area.</p>
+              <ul class="place-list">
+                <li>
+                  <span class="place-name">Days Inn &amp; Suites by Wyndham Houston NW Cypress</span>
+                  <a class="place-addr" href="https://www.google.com/maps/search/?api=1&amp;query=Days+Inn+%26+Suites+by+Wyndham+Houston+NW+Cypress+10650+Huffmeister+Rd+Houston+TX+77065" target="_blank" rel="noopener">10650 Huffmeister Rd, Houston, TX 77065</a>
+                </li>
+                <li>
+                  <span class="place-name">Comfort Suites Northwest Cy-Fair</span>
+                  <a class="place-addr" href="https://www.google.com/maps/search/?api=1&amp;query=Comfort+Suites+Northwest+Cy-Fair+13355+FM+1960+W+Houston+TX+77065" target="_blank" rel="noopener">13355 FM 1960 W, Houston, TX 77065</a>
+                </li>
+                <li>
+                  <span class="place-name">Staybridge Suites Houston NW Cypress Crossing</span>
+                  <a class="place-addr" href="https://www.google.com/maps/search/?api=1&amp;query=Staybridge+Suites+Houston+NW+Cypress+Crossing+13140+FM+1960+Rd+W+Houston+TX+77065" target="_blank" rel="noopener">13140 FM 1960 Rd W, Houston, TX 77065</a>
+                </li>
+                <li>
+                  <span class="place-name">Super 8 by Wyndham Houston Northwest Cypress</span>
+                  <a class="place-addr" href="https://www.google.com/maps/search/?api=1&amp;query=Super+8+by+Wyndham+Houston+Northwest+Cypress+10710+Huffmeister+Rd+Houston+TX+77065" target="_blank" rel="noopener">10710 Huffmeister Rd, Houston, TX 77065</a>
+                </li>
+                <li>
+                  <span class="place-name">Hyatt Place Houston-Northwest/Cy-Fair</span>
+                  <a class="place-addr" href="https://www.google.com/maps/search/?api=1&amp;query=Hyatt+Place+Houston+Northwest+Cy-Fair+19813+Northwest+Fwy+Houston+TX+77065" target="_blank" rel="noopener">19813 Northwest Fwy, Houston, TX 77065</a>
+                </li>
+              </ul>
+              <p data-i18n="qHotelA2">Staying nearby keeps you close to the pickup point for the transportation we are arranging (see the next question), so getting to and from the celebration will be simple.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <img class="decor decor-cascade" src="assets/decor/calla-cascade.png" alt="" aria-hidden="true" />
+              <svg class="faq-heart" aria-hidden="true"><use href="#mini-heart" /></svg>
+              <span class="faq-q" data-i18n="qTransportQ">Will there be transportation?</span>
+            </summary>
+            <div class="faq-answer">
+              <p data-i18n="qTransportA">Yes! We are arranging transportation from a central meeting point near the hotels listed above. Guests will be taken to the church for the ceremony, and then to The House Estate for the reception afterward. Pickup times and the exact location will be provided closer to the date.</p>
+              <p data-i18n="qTransportA2">We are so grateful that so many of you are traveling such a long way to celebrate with us. We want every one of you there, and making the day as easy as possible, especially for our out-of-town guests, is truly the least we can do.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <svg class="faq-heart" aria-hidden="true"><use href="#mini-heart" /></svg>
+              <span class="faq-q" data-i18n="qCostQ">Any tips for saving on travel?</span>
+            </summary>
+            <div class="faq-answer">
+              <p data-i18n="qCostA">First, thank you. It means the world to us that you want to celebrate with us, and we truly want everyone there. We know travel is expensive, which is one reason we are arranging transportation for the day.</p>
+              <p data-i18n="qCostA2">A few tips that may help:</p>
+              <ul class="tip-list">
+                <li data-i18n="qCostTip1">Track flight prices early. On Google Flights, you can turn on price tracking for your travel dates and get an email when fares drop.</li>
+                <li data-i18n="qCostTip2">Compare rates at the recommended hotels above. Booking sites often have good deals on them.</li>
+                <li data-i18n="qCostTip3">Look at bundles. Sites like Expedia often offer savings when you book your flight and hotel together, and a rental car too if you need one.</li>
+              </ul>
+              <p data-i18n="qCostA3">Prices change often, so it is worth checking back from time to time. We hope these tips help you find a great deal, and we cannot wait to celebrate with you!</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <svg class="faq-heart" aria-hidden="true"><use href="#mini-heart" /></svg>
+              <span class="faq-q" data-i18n="qInviteQ">When will the invitation arrive?</span>
+            </summary>
+            <p data-i18n="qInviteA">Formal invitations will be mailed soon after the New Year. In the meantime, if you have any questions, please feel free to reach out to either of us.</p>
+          </details>
+        </div>
+      </section>
+
+      <img class="divider-art" src="assets/decor/birds-rings.png" alt="" aria-hidden="true" />
+
+      <section class="section rsvp" id="rsvp" aria-labelledby="reply-title">
+        <img class="decor decor-cupid" src="assets/decor/cupid.png" alt="" aria-hidden="true" />
+        <img class="decor decor-swans" src="assets/decor/swans.png" alt="" aria-hidden="true" />
+        <div class="rsvp-card">
+          <p class="kicker" data-i18n="rsvpKicker">Kindly reply</p>
+          <h2 class="section-title" id="reply-title" data-i18n="replyTitle">Will we see you in November?</h2>
+          <p class="section-intro" data-i18n="replyIntro">Let us know your early plans.</p>
+          <p class="setup-notice" id="setup-notice" data-i18n="setupNotice">Preview only. This form is not connected yet, so replies are not being sent.</p>
+
+      <form id="reply-form">
+        <input type="hidden" name="language" id="language-field" value="en" />
+        <div class="trap" aria-hidden="true">
+          <label for="gotcha">Leave this empty</label>
+          <input id="gotcha" type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+        </div>
+
+        <label class="field">
+          <span data-i18n="nameLabel">Your name</span>
+          <input name="name" type="text" autocomplete="name" placeholder="First and last name" data-i18n-placeholder="namePlaceholder" required />
+        </label>
+
+        <label class="field">
+          <span data-i18n="emailLabel">Email address</span>
+          <input name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+        </label>
+
+        <fieldset class="address">
+          <legend data-i18n="addressLegend">Mailing address</legend>
+          <label class="field">
+            <span data-i18n="addr1Label">Address line 1</span>
+            <input name="address1" type="text" autocomplete="address-line1" placeholder="Street address" data-i18n-placeholder="addr1Placeholder" required />
+          </label>
+          <label class="field">
+            <span data-i18n="addr2Label">Address line 2 (optional)</span>
+            <input name="address2" type="text" autocomplete="address-line2" placeholder="Apartment, suite or unit" data-i18n-placeholder="addr2Placeholder" />
+          </label>
+          <div class="field-row">
+            <label class="field">
+              <span data-i18n="cityLabel">City</span>
+              <input name="city" type="text" autocomplete="address-level2" required />
+            </label>
+            <label class="field">
+              <span data-i18n="stateLabel">State / Province</span>
+              <input name="state" type="text" autocomplete="address-level1" />
+            </label>
+          </div>
+          <div class="field-row">
+            <label class="field">
+              <span data-i18n="zipLabel">ZIP / Postal code</span>
+              <input name="zip" type="text" autocomplete="postal-code" required />
+            </label>
+            <label class="field">
+              <span data-i18n="countryLabel">Country</span>
+              <input name="country" type="text" autocomplete="country-name" placeholder="United States" data-i18n-placeholder="countryPlaceholder" required />
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="choices">
+          <legend data-i18n="attendLegend">Are you likely to attend?</legend>
+          <label><input type="radio" name="attendance" value="Likely attending" required /><span data-i18n="optYes">Likely, yes</span></label>
+          <label><input type="radio" name="attendance" value="Not sure yet" /><span data-i18n="optMaybe">Not sure</span></label>
+          <label><input type="radio" name="attendance" value="Unlikely to attend" /><span data-i18n="optNo">Unlikely</span></label>
+        </fieldset>
+
+        <button class="send" type="submit" data-i18n="send">Send reply</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        <p class="fine-print" data-i18n="finePrint">An early indication only, not a formal RSVP.</p>
+      </form>
+        </div>
+      </section>
+
+      <section class="section countdown" id="countdown" aria-labelledby="countdown-title">
+        <h2 class="sr-only" id="countdown-title" data-i18n="countdownTitle">Countdown to the big day</h2>
+        <p class="sr-only" data-i18n="countdownWhen">Saturday, November 20, 2027, at 3:00 p.m. Central Time</p>
+        <div class="countdown-doilies">
+          <img src="assets/decor/countdown-doilies.png" alt="" width="612" height="462" />
+          <svg class="countdown-art" viewBox="0 0 612 462" aria-hidden="true" focusable="false">
+            <defs>
+              <pattern id="cd-satin" width="2.2" height="2.2" patternUnits="userSpaceOnUse" patternTransform="rotate(62)">
+                <rect width="2.2" height="2.2" fill="#6c805e" />
+                <rect width="1" height="2.2" fill="#93a682" />
+                <rect x="1" width="0.3" height="2.2" fill="#53664a" />
+              </pattern>
+              <pattern id="cd-satin-deep" width="2.2" height="2.2" patternUnits="userSpaceOnUse" patternTransform="rotate(62)">
+                <rect width="2.2" height="2.2" fill="#4f6045" />
+                <rect width="1" height="2.2" fill="#6e815f" />
+                <rect x="1" width="0.3" height="2.2" fill="#3b4834" />
+              </pattern>
+              <filter id="cd-thread" x="-10%" y="-15%" width="120%" height="135%" color-interpolation-filters="sRGB">
+                <feGaussianBlur in="SourceAlpha" stdDeviation="0.6" result="height" />
+                <feSpecularLighting in="height" surfaceScale="2" specularConstant="0.5" specularExponent="14" lighting-color="#f6f8ee" result="spec">
+                  <feDistantLight azimuth="225" elevation="40" />
+                </feSpecularLighting>
+                <feComposite in="spec" in2="SourceAlpha" operator="in" result="specIn" />
+                <feComposite in="SourceGraphic" in2="specIn" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" result="lit" />
+                <feDropShadow in="lit" dx="0.45" dy="0.75" stdDeviation="0.45" flood-color="#4a3c22" flood-opacity="0.5" />
+              </filter>
+            </defs>
+            <g filter="url(#cd-thread)" stroke-width="0.45" paint-order="stroke" text-anchor="middle">
+              <g transform="rotate(-3.4 264 165)" fill="url(#cd-satin)" stroke="#53664a">
+                <text x="264" y="131" font-family="'Instrument Serif', serif" font-size="40" letter-spacing="4" data-size="40" data-fit="292" data-i18n="countdownTop">COUNTDOWN TO</text>
+                <text x="264" y="207" font-family="'Luxurious Script', cursive" font-size="92" data-size="92" data-fit="290" data-i18n="countdownBottom">the big day</text>
+              </g>
+              <g fill="url(#cd-satin-deep)" stroke="#3b4834" font-family="'Instrument Serif', serif" font-size="46">
+                <text x="239" y="354" id="cd-days">--</text>
+                <text x="329" y="354" id="cd-hours">--</text>
+                <text x="419" y="354" id="cd-minutes">--</text>
+                <text x="509" y="354" id="cd-seconds">--</text>
+                <use href="#mini-heart" x="279" y="331" width="10" height="9" />
+                <use href="#mini-heart" x="369" y="331" width="10" height="9" />
+                <use href="#mini-heart" x="459" y="331" width="10" height="9" />
+              </g>
+            </g>
+            <g fill="#4f5f45" font-family="'Instrument Serif', serif" font-size="14" letter-spacing="2" text-anchor="middle">
+              <text x="239" y="381" data-size="14" data-fit="80" data-i18n="cdDays">DAYS</text>
+              <text x="329" y="381" data-size="14" data-fit="80" data-i18n="cdHours">HOURS</text>
+              <text x="419" y="381" data-size="14" data-fit="80" data-i18n="cdMinutes">MINUTES</text>
+              <text x="509" y="381" data-size="14" data-fit="80" data-i18n="cdSeconds">SECONDS</text>
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p class="footer-tag">#GettingDiGiglioWithIt</p>
+        <p class="footer-date" data-i18n="dateEmbroidered">11.20.2027</p>
+      </footer>
+
+      <div class="meadow" aria-hidden="true">
+        <img src="assets/decor/meadow.png" alt="" width="996" height="294" />
+      </div>
+    </div>
+    </main>
+  </body>
+</html>

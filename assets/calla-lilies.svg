@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 200 520" width="200" height="520" role="img" aria-labelledby="calla-title">
+  <title id="calla-title">Three calla lilies tied with a sage ribbon</title>
+  <defs>
+    <linearGradient id="petal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e3e8db" />
+      <stop offset="0.45" stop-color="#fdfcf8" />
+      <stop offset="1" stop-color="#f1f0e7" />
+    </linearGradient>
+    <linearGradient id="neck" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#aaba99" />
+      <stop offset="0.3" stop-color="#aaba99" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="throat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6f4ea" />
+      <stop offset="1" stop-color="#dfddcb" />
+    </linearGradient>
+
+    <g id="calla">
+      <path fill="url(#petal)" d="M-4 0C-6-22-10-48-16-76C-21-100-23-120-22-138C-10-124 6-110 18-100C28-92 33-84 27-77C16-60 8-30 5 0Z" />
+      <path fill="url(#neck)" d="M-4 0C-6-22-10-48-16-76C-21-100-23-120-22-138C-10-124 6-110 18-100C28-92 33-84 27-77C16-60 8-30 5 0Z" />
+      <path fill="none" stroke="#d3d9c8" stroke-width="0.6" d="M-12-78C-9-50-5-24-2-4" />
+      <path fill="none" stroke="#b9c2ab" stroke-width="0.7" d="M22-79C13-60 6-34 2-6" />
+      <path fill="url(#throat)" d="M-22-138C-10-124 6-110 18-100C28-92 33-84 27-77C14-80 0-87-10-99C-17-108-21-122-22-138Z" />
+      <path fill="#d6bf7a" d="M1-88C0-95 2-101 6-106C8-100 7-94 4-88Z" />
+      <path fill="none" stroke="#768667" stroke-width="0.8" stroke-linejoin="round" d="M27-77C14-80 0-87-10-99C-17-108-21-122-22-138" />
+      <path fill="none" stroke="#768667" stroke-width="0.9" stroke-linejoin="round" d="M-4 0C-6-22-10-48-16-76C-21-100-23-120-22-138C-10-124 6-110 18-100C28-92 33-84 27-77C16-60 8-30 5 0Z" />
+    </g>
+  </defs>
+
+  <g fill="none" stroke="#8c9d7b" stroke-width="4.2" stroke-linecap="round">
+    <path d="M78 205Q96 305 116 400Q125 452 134 505" />
+    <path d="M160 190Q142 300 124 400Q115 451 106 502" />
+    <path d="M118 150Q120 280 120 400Q120 455 120 510" />
+  </g>
+
+  <g>
+    <path fill="none" stroke="#aaba99" stroke-width="2.2" stroke-linecap="round" d="M123 406Q136 432 131 468" />
+    <path fill="none" stroke="#aaba99" stroke-width="2.2" stroke-linecap="round" d="M117 406Q106 430 112 458" />
+    <path fill="#aaba99" stroke="#7d8d6f" stroke-width="0.7" d="M107 393Q120 398 133 393L133 405Q120 410 107 405Z" />
+    <ellipse cx="120" cy="400" rx="4" ry="5" fill="#9aab88" stroke="#7d8d6f" stroke-width="0.6" />
+  </g>
+
+  <use href="#calla" transform="translate(78 205) rotate(-10) scale(0.9)" />
+  <use href="#calla" transform="translate(160 190) rotate(9) scale(-0.92 0.92)" />
+  <use href="#calla" transform="translate(118 150) rotate(-1)" />
+</svg>
